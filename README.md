@@ -44,3 +44,31 @@ The program ends.
 
 
 ##Code 3
+1. Start
+2. Declare variables: int i, n
+3. Declare double variables: sum = 0, average = 0
+4. Output: "Enter the number of integers you want in an array: "
+5. Input: Read the value of n (number of integers)
+6. Declare an integer array arr[n]
+7. Start a loop with index i from 0 to n-1
+   a. Output: "Enter arr[i]: "
+   b. Input: Read the value and store it in arr[i]
+8. Output: "The Elements of the Array are: \n\n"
+9. Start a loop with index i from 0 to n-1
+   a. Output: "arr[i] = arr[i]"
+   b. Add arr[i] to the sum variable: sum += arr[i]
+10. Calculate average: average = sum / n
+11. Output: "The Sum of the Elements of the Array is: sum"
+12. Output: "The Average of the Elements of the Array is: average"
+13. Output: "\n\n"
+14. End
+The program starts and declares necessary variables.
+The user is prompted to enter the number of integers they want in the array (variable n).
+An array arr of size n is declared to store the integers.
+The program then enters a loop to read integers from the user and stores them in the array.
+After reading all the integers, the program calculates the sum of the elements and the average.
+Finally, the program outputs the elements, sum, and average of the array.
+
+
+##code 4
+

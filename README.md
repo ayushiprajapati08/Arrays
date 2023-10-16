@@ -96,5 +96,28 @@ Finally, the program outputs the largest element found in the array.
 
 
 ##Code 5
+1. Start
+2. Declare variables: int input[100] (array to store elements), count (to store number of elements), i, min
+3. Output: "Enter Number of Elements in Array"
+4. Input: Read the value of count
+5. Output: "Enter count numbers"
+6. Use a loop to read count numbers from the user and store them in the array input
+   a. Input: Read a number and store it in input[i]
+7. Set min as the first element of the array: min = input[0]
+8. Use a loop to iterate through the array from index 1 to count-1
+   a. Check if input[i] is less than min
+   b. If true, update min with input[i]
+9. Output: "Minimum Element\n" followed by the value of min
+10. End
+The program starts and declares necessary variables.
+The user is prompted to enter the number of elements they want in the array (variable count).
+The program then enters a loop to read count numbers from the user and stores them in the array input.
+The program initializes min with the first element of the array (input[0]).
+The program then iterates through the array from index 1 to count-1 and checks if any element is smaller than the current minimum element (min). If it finds a smaller element, it updates min with that element.
+Finally, the program outputs the minimum element found in the array.
+
+
+##Code 6
+
 
 

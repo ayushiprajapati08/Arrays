@@ -70,5 +70,31 @@ After reading all the integers, the program calculates the sum of the elements a
 Finally, the program outputs the elements, sum, and average of the array.
 
 
-##code 4
+##Code 4
+1. Start
+2. Declare variables: int i, n
+3. Declare a float array arr[100] to store elements
+4. Output: "Enter total number of elements(1 to 100): "
+5. Input: Read the value of n (number of elements)
+6. Use a loop to read n numbers from the user and store them in the array arr
+   a. Output: "Enter Number i + 1: "
+   b. Input: Read a number and store it in arr[i]
+7. Initialize arr[0] as the largest element
+8. Use a loop to iterate from index 1 to n-1
+   a. Check if arr[0] is less than arr[i]
+   b. If true, update arr[0] with arr[i]
+9. Output: "Largest element = arr[0]"
+10. End
+The program starts and declares necessary variables.
+The user is prompted to enter the total number of elements they want to input (variable n).
+An array arr of size 100 is declared to store the elements.
+The program then enters a loop to read n numbers from the user and stores them in the array arr.
+The program initializes arr[0] as the largest element.
+The program then iterates through the elements from index 1 to n-1 and checks if any element is larger than the current largest element (arr[0]). If it finds a larger element, it updates arr[0] with that element.
+Finally, the program outputs the largest element found in the array.
+
+
+
+##Code 5
+
 

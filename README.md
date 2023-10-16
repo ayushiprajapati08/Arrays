@@ -25,3 +25,22 @@ Please note that there are a couple of issues in the provided code such as the i
 
 
 ##Code 2
+1. Start
+2. Declare an integer array numbers[5] to store marks
+3. Output: "Enter 5 marks:"
+4. Start a loop with index i from 0 to 4
+   a. Input: Read a mark from the user and store it in numbers[i]
+5. Output: "The marks are: "
+6. Start another loop with index n from 0 to 4
+   a. Output: Print numbers[n] followed by a space
+7. End
+The program starts and declares an integer array numbers of size 5 to store the marks entered by the user.
+The user is prompted to enter 5 marks.
+The program enters a loop where it reads each mark from the user and stores it in the corresponding position in the numbers array.
+After reading all the marks, the program outputs "The marks are: ".
+The program enters another loop to print the marks stored in the numbers array, separated by spaces.
+The program ends.
+
+
+
+##Code 3

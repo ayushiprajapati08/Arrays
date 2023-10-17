@@ -118,6 +118,29 @@ Finally, the program outputs the minimum element found in the array.
 
 
 ##Code 6
-
+1. Start
+2. Declare variables: int m, n (to store the dimensions of the 2D array)
+3. Input: Read the number of rows (m) from the user
+4. Input: Read the number of columns (n) from the user
+5. Declare a 2D array s[m][n] to store the elements
+6. Declare variables: int i, j (loop counters)
+7. Output: "Array Input:"
+8. Use nested loops to read elements into the 2D array:
+   a. Outer loop from i = 0 to m - 1
+      i. Inner loop from j = 0 to n - 1
+         - Input: Read s[i][j] from the user
+9. Output: "Array Elements:"
+10. Use nested loops to print the elements of the 2D array:
+    a. Outer loop from i = 0 to m - 1
+       i. Inner loop from j = 0 to n - 1
+          - Output: Print s[i][j]
+       ii. Output: Print a new line to move to the next row
+11. End
+The program starts and declares necessary variables.
+The user is prompted to enter the number of rows (m) and columns (n) for the 2D array.
+A 2D array s[m][n] is declared to store the elements.
+The program then enters nested loops to read elements into the 2D array.
+After reading all the elements, the program enters another set of nested loops to print the elements of the 2D array row by row.
+Finally, the program ends after printing the entire 2D array.
 
 
